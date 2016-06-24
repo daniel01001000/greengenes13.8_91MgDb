@@ -1,0 +1,15 @@
+Package: greengenes13.8OTU91MgDb
+Title: Greengenes 13.8 91% similarity OTU threshold 16S rRNA Database Annotation
+    Data
+Version: 0.0.0.9
+Authors@R: c(person(given = "Daniel", family = "Hwang", email = "dhwang88@umiacs.umd.edu", role = c("com", "ctb")), person(given = "Nathan", family = "Olson", email = "nolson@umiacs.umd.edu", role = c("aut", "cre")))
+Description: Metagenome annotation package with for the Greengenes 16S rRNA Database version 13.8 for the 91 OTU set. Contains a MgDb-class object, defined in the metagenomeFeatures package.Depends:
+    R (>= 3.2.0)
+License: Artistic-2.0
+LazyData: true
+Imports:
+    metagenomeFeatures
+URL: https://github.com/HCBravoLab/greengenes13.8OTU91MgDb
+BugReports: https://github.com/HCBravoLab/greengenes13.8OTU91MgDb/issues
+biocViews: AnnotationData, Microbiome, Metagenomics, Sequencing
+RoxygenNote: 5.0.1
